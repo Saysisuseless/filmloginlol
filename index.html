@@ -1,1 +1,63 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            /* background: linear-gradient(to right, #ff7e5f, #feb47b);*/
+            background: url('https://i.ibb.co/BHy6sgkr/received-563746970143842.jpg') center/cover no-repeat;
+        }
+
+        main {
+            background: rgba(124, 96, 96, 0.5); /* Adjust the alpha value (0.8) as needed */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(19, 19, 19, 0.1);
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Login</h2>
+        <form>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>
